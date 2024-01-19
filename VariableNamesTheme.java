@@ -2,7 +2,7 @@ public class VariableNamesTheme {
     public static void main(String[] args) {
        /* Разные переменные (это название блока) */
        /* цифра */
-       int number = 5;
+       byte number = 5;
        System.out.print("цифра num = ");
        System.out.print(number);
        System.out.print("\n");
