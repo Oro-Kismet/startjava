@@ -13,7 +13,8 @@ public class CyclesTheme {
        counter = beginNumber;
        do { 
         currentInt = (counter / 2);
-        currentFloat = (float) (counter / 2);
+        currentFloat = (float) counter / 2;
+        //System.out.print(currentInt + "  " + currentFloat + " ;");
         if  ( currentInt == currentFloat ) {
             summaChet += counter;
         } else {
